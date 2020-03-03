@@ -80,12 +80,15 @@ export default class ContactSection extends Component {
         
         
         return (
-              <div className="container">
+              <div className="container row">
+                  <div className="col s18 m10">
+
+                  
             <div className="center">
                <h3> GET IN TOUCH WITH US</h3>
             </div>
             {!this.state.formSubmitted ?
-                <div className="form" >
+                <div className="form"  >
                 <div>
                 <label className="label" htmlFor="#"> Full Name</label>
                 <input type="text" name='name' id='name' onChange={this.handleChange}/>
@@ -112,7 +115,7 @@ export default class ContactSection extends Component {
                 :
                 <div className=" card "><h3>Your form was successfully sumitted, our manager will contact you very soon</h3> </div>
             }
-            
+            </div>
             </div>
         )
     }
