@@ -1,0 +1,5 @@
+export const env = {
+    REACT_APP_EMAILJS_RECEIVER: process.env.REACT_APP_EMAILJS_RECEIVER,
+    REACT_APP_EMAILJS_TEMPLATEID: "template_AyrkteIw",
+    REACT_APP_EMAILJS_USERID: " user_463EFIKesNAfVPVbvE68o"
+  };

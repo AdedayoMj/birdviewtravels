@@ -1,0 +1,172 @@
+.top {
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+}
+
+.title {
+    color: balck;
+}
+
+.card-section {
+    height: 45vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.footer {
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: black;
+}
+
+.copywrite {
+    color: white;
+    margin-top: 55px !important;
+}
+
+.foot {
+    color: white;
+}
+
+.list {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.nav {
+    height: 100%;
+    display: flex;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: red;
+}
+
+.tallin {
+    background-image: url("../assets/tallinn.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+
+.helsinki {
+    background-image: url("../assets/helsinki.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+
+.stockholm {
+    background-image: url("../assets/stockholm.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+
+.button {
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    background: transparent;
+    border: 0.05rem solid red;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.6rem;
+    cursor: pointer;
+    margin: 0.2rem 0.5rem 0.2rem 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.button2 {
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    background: transparent;
+    border: 0.05rem solid red;
+    color: black;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.6rem;
+    cursor: pointer;
+    margin: 0.2rem 0.5rem 0.2rem 0;
+    transition: all 0.5s ease-in-out;
+    margin-top: 15px;
+}
+
+.align {
+    margin-left: 250px;
+}
+
+.button:hover {
+    background: red;
+    color: white
+}
+
+.button2:hover {
+    background: red;
+    color: white
+}
+
+.button:focus {
+    outline: none;
+}
+
+.margin-left {
+    margin-left: 20px !important;
+}
+
+.margin-b {
+    margin-left: 60px !important;
+}
+
+.margin-card {
+    margin-left: 20px !important;
+}
+
+.margin-card2 {
+    margin-left: 200px !important;
+}
+
+.margin-t {
+    margin-top: 4px !important;
+    margin-left: 20px !important;
+}
+
+.top-div {
+    margin-top: 50px;
+}
+
+.top-content {
+    color: white;
+    font-weight: bolder;
+    margin-top: 70px;
+}
+
+.a {
+    margin-top: 20px
+}
+
+.label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cardText {
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 90%;
+}
+
+@media (min-width: 650px) {
+    .App {
+        background-position: center center;
+    }
+    .App-content {
+        align-items: flex-end;
+        justify-content: center;
+    }
+}
